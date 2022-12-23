@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "financial-news-api"
+version = "0.0.1"
+authors = [
+  { name="FinancialNewsApi", email="support@newsfilter.io" },
+]
+description = "Stock Market and Financial News API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FinancialNewsAPI/financial-news-api-python"
+"Bug Tracker" = "https://github.com/FinancialNewsAPI/financial-news-api-python/issues"
+"Documentation" = "https://developers.newsfilter.io/"

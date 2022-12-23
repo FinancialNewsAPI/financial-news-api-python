@@ -1,0 +1,7 @@
+venv
+env
+dist
+build
+.idea
+.pypirc
+.deploy.sh
